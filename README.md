@@ -84,6 +84,7 @@ Stage 5:
            The Administrator should not be able to delete himself.
            In that case, respond with the HTTP Bad Request status (400) and the following body:
         e) Add the PUT api/admin/user/role endpoint that changes user roles.
+
 Stage 6:
         a) Implement logging security events in the application following the requirements described above.
         b) Add the GET api/security/events endpoint that must respond
@@ -91,6 +92,7 @@ Stage 6:
            sorted in ascending order by ID. If no data is found, the service should return
            an empty JSON array.
         c) Implement a mechanism to block the user after 5 consecutive failed logins.
+
 Stage 7:
         a) Our last step in the project is to ensure the security of our service.
            By now, all data, authentication, and business information is transmitted
